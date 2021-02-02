@@ -1,0 +1,71 @@
+img {
+    max-width:100%;
+    display:block;
+}
+
+/* CSS agissant sur L'entête de l'annonce */
+header{
+    background-image: url('./img/background.jpg');
+    height:12rem;
+}
+
+/* font-family au niveau du nav */
+nav {
+    font-family: 'Merienda', cursive;
+}
+
+/* font-family et effets de couleur au niveau de tous les h */
+h1,h2,h3,h4,h5 {
+    font-family: 'Merienda', cursive;
+}
+
+h1 {
+    color : #FFF
+}
+h2,h3 {  
+    color: #2F4073   
+}
+
+/* Le shadow de L'entête */
+.ombre{
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+
+/* Partie Centrale */
+.text {
+    resize:none;
+}
+
+.validation {
+    font-size:.7rem;
+}
+
+
+
+.s2 {
+    background: #ddd;
+}
+.chat{
+    background: #7885A5;
+    width:20rem;
+    transition:all 0.4s ease-in-out;
+}
+.s2:hover .chat {
+    background: #061339;
+}
+
+/* footer */
+footer {
+    background: #061339;
+}
+
+
+/* Media querys */
+
+@media screen and (max-width:1000px) {
+
+    .reverse {
+        flex-direction:column-reverse;
+    }
+}
